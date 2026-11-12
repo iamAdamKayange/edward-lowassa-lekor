@@ -197,6 +197,14 @@
 .article-end p { margin: 12px 0 17px; color: var(--green-deep); font: 500 19px/1.5 var(--serif); }
 .article-footer { padding-right: 8%; padding-left: 8%; }
 .article-header .nav a[aria-current="page"] { color: #ddc98e; }
+.updates-list { display: grid; }
+.updates-list .update-card { grid-template-columns: minmax(0, 1fr) 32px; gap: 8px 20px; padding: 23px 12px; transition: background .2s ease; }
+.updates-list .update-card:hover { background: #f2eee5; }
+.updates-list .update-date { grid-column: 1 / -1; }
+.updates-list .update-card > div:nth-child(2) { min-width: 0; }
+.updates-list .update-card > span { justify-self: end; color: var(--green); font-size: 19px; }
+.updates-list .update-card h3 { font-size: 21px; line-height: 1.35; }
+.updates-list .update-card p { font-size: 12px; line-height: 1.7; }
 @media (max-width: 750px) { .article-header .nav { display: none; } .article-layout { display: flex; flex-direction: column; gap: 34px; padding: 38px 7% 60px; } .article-takeaway { position: static; } }
 
 @media (max-width: 900px) {
@@ -208,6 +216,9 @@
   .header-cta { gap: 9px; padding: 0 11px; font-size: 9px; }
   .downloads-grid, .downloads-hero { padding-right: 7%; padding-left: 7%; }
   .bio-photo { min-height: 280px; }
+  .updates-list .update-card { grid-template-columns: minmax(0, 1fr) 26px; gap: 8px 12px; padding: 18px 4px; }
+  .updates-list .update-card h3 { font-size: 17px; }
+  .updates-list .update-card p { font-size: 10px; }
   .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 12px; margin-top: 36px; }
   .facts > div { min-width: 0; padding: 8px 12px; }
   .facts > div:first-child, .facts > div:nth-child(3) { padding-left: 0; }
