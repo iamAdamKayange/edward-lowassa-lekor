@@ -1,0 +1,7 @@
+node_modules
+.npm-cache
+/images/
+.next
+out
+.env*
+npm-debug.log*
