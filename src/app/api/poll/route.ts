@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { neon } from "@neondatabase/serverless";
 
-const choices = ["Maendeleo ya kitaaluma", "Ustawi na ushiriki wa wanachama", "Ubora wa huduma za famasia", "Sauti na uwakilishi imara"];
+const choices = ["Professional development", "Member wellbeing", "Quality pharmacy practice", "A stronger professional voice"];
 
 export async function GET() {
   const databaseUrl = process.env.DATABASE_URL;
