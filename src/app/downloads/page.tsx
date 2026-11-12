@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 const documents = [
   { number: "01", title: "Wasifu wa Kitaaluma (CV)", description: "Taarifa za elimu, uzoefu wa kazi na huduma kwa jamii.", file: "/documents/lowassa-edward-lekor-lormuje-cv.pdf", status: "Inapatikana", available: true },
-  { number: "02", title: "Manifesto ya Kampeni", description: "Maono na vipaumbele vya Lowassa Lormuje kwa PST.", file: "", status: "Inakuja", available: false },
+  { number: "02", title: "Manifesto ya Kampeni", description: "Maono na vipaumbele vya Lowassa Lormuje kwa PST.", file: "/documents/lowassa-manifesto-2026-2027.pdf", status: "Inapatikana", available: true },
   { number: "03", title: "Leadership Action Plan", description: "Mpango wa hatua wa kuendeleza ajenda ya kampeni.", file: "", status: "Inakuja", available: false },
   { number: "04", title: "Nyaraka nyingine za kampeni", description: "Nyaraka za ziada zitaongezwa hapa kadri zinavyopatikana.", file: "", status: "Inakuja", available: false },
 ];
