@@ -22,7 +22,7 @@ export default function PharmacistDemandArticle() {
   return (
     <main className="article-page">
       <header className="header article-header">
-        <a className="brand" href="/" aria-label="Edward Lowassa campaign home"><img className="pst-logo" src="/images/logo.jpeg" alt="Pharmaceutical Society of Tanzania logo" /><span className="brand-copy"><b>EDWARD LOWASSA</b><small>VICE PRESIDENT CAMPAIGN · 2026/27</small></span></a>
+        <a className="brand" href="/" aria-label="Edward Lowassa campaign home"><img className="pst-logo" src="/images/ell_logo.jpeg" alt="Edward Lowassa campaign logo" /><span className="brand-copy"><b>EDWARD LOWASSA</b><small>VICE PRESIDENT CAMPAIGN · 2026/27</small></span></a>
         <nav className="nav"><a href="/">Home</a><a href="/#about">Meet Edward</a><a href="/#vision">The Vision</a><a href="/updates/pharmacist-demand" aria-current="page">Updates</a><a href="/downloads">Downloads</a></nav>
         <a className="button download-header-cta" href="/downloads">Campaign Documents <span>↗</span></a>
       </header>
@@ -53,7 +53,7 @@ export default function PharmacistDemandArticle() {
           <div className="article-end"><span>CONTINUE THE CONVERSATION</span><p>Read Edward Lowassa’s priorities for professional development, member wellbeing and a stronger voice for pharmacy.</p><a className="button button-green" href="/#vision">Explore the Vision <span>→</span></a></div>
         </article>
       </div>
-      <footer className="footer article-footer"><a className="brand footer-brand" href="/"><img className="pst-logo" src="/images/logo.jpeg" alt="" /><span className="brand-copy"><b>EDWARD LOWASSA</b><small>VICE PRESIDENT CAMPAIGN · 2026/27</small></span></a><p>Leadership for a stronger, more united pharmacy profession.</p><div className="footer-meta"><a href="/downloads">Downloads</a><span>@lowassa_eddie</span><span>© 2026 Edward Lowassa Campaign</span></div></footer>
+      <footer className="footer article-footer"><a className="brand footer-brand" href="/"><img className="pst-logo" src="/images/ell_logo.jpeg" alt="" /><span className="brand-copy"><b>EDWARD LOWASSA</b><small>VICE PRESIDENT CAMPAIGN · 2026/27</small></span></a><p>Leadership for a stronger, more united pharmacy profession.</p><div className="footer-meta"><a href="/downloads">Downloads</a><span>@lowassa_eddie</span><span>© 2026 Edward Lowassa Campaign</span></div></footer>
     </main>
   );
 }

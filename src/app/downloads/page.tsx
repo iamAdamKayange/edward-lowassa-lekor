@@ -16,7 +16,7 @@ export default function DownloadsPage() {
   return (
     <main className="downloads-page">
       <header className="header">
-        <a className="brand" href="/" aria-label="Edward Lowassa campaign home"><img className="pst-logo" src="/images/logo.jpeg" alt="Pharmaceutical Society of Tanzania logo" /><span className="brand-copy"><b>EDWARD LOWASSA</b><small>VICE PRESIDENT CAMPAIGN · 2026/27</small></span></a>
+        <a className="brand" href="/" aria-label="Edward Lowassa campaign home"><img className="pst-logo" src="/images/ell_logo.jpeg" alt="Edward Lowassa campaign logo" /><span className="brand-copy"><b>EDWARD LOWASSA</b><small>VICE PRESIDENT CAMPAIGN · 2026/27</small></span></a>
         <nav className="nav downloads-nav"><a href="/#home">Home</a><a href="/#about">Meet Edward</a><a href="/#vision">The Vision</a><a href="/updates/pharmacist-demand">Updates</a><a href="/downloads" aria-current="page">Downloads</a></nav>
         <a className="button download-header-cta" href="/#support">Support the Campaign <span>↗</span></a>
       </header>

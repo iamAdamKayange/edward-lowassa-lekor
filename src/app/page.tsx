@@ -39,7 +39,7 @@ export default function Home() {
   return (
     <main>
       <header className="header">
-        <a className="brand" href="#home" aria-label="Edward Lowassa campaign home"><img className="pst-logo" src="/images/logo.jpeg" alt="Pharmaceutical Society of Tanzania logo" /><span className="brand-copy"><b>EDWARD LOWASSA</b><small>VICE PRESIDENT CAMPAIGN · 2026/27</small></span></a>
+        <a className="brand" href="#home" aria-label="Edward Lowassa campaign home"><img className="pst-logo" src="/images/ell_logo.jpeg" alt="Edward Lowassa campaign logo" /><span className="brand-copy"><b>EDWARD LOWASSA</b><small>VICE PRESIDENT CAMPAIGN · 2026/27</small></span></a>
         <button className="menu-button" onClick={() => setMenuOpen(!menuOpen)} aria-label="Open menu">{menuOpen ? "×" : "☰"}</button>
         <nav className={menuOpen ? "nav open" : "nav"}>
           <a href="#home" onClick={() => setMenuOpen(false)}>Home</a><a href="#about" onClick={() => setMenuOpen(false)}>Meet Edward</a><a href="#vision" onClick={() => setMenuOpen(false)}>The Vision</a><a href="#updates" onClick={() => setMenuOpen(false)}>Updates</a><a href="/downloads">Downloads</a>
@@ -76,7 +76,7 @@ export default function Home() {
 
       <section className="updates section" id="updates"><div className="updates-heading"><div><div className="section-kicker">05 — CAMPAIGN UPDATES</div><h2>Ideas for the <em>profession.</em></h2></div><span className="text-link">Read the latest <span>→</span></span></div><a className="update-card" href="/updates/pharmacist-demand"><div className="update-date">FEATURED ARTICLE <span>·</span> 8 MIN READ</div><div><h3>The World Needs More Pharmacists. Can Tanzania Turn Global Demand into Jobs?</h3><p>How workforce intelligence, stronger partnerships and relevant skills can help Tanzanian pharmacists access opportunity.</p></div><span aria-hidden="true">↗</span></a></section>
 
-      <footer className="footer"><a className="brand footer-brand" href="#home"><img className="pst-logo" src="/images/logo.jpeg" alt="" /><span className="brand-copy"><b>EDWARD LOWASSA</b><small>VICE PRESIDENT CAMPAIGN · 2026/27</small></span></a><p>Leadership for a stronger, more united pharmacy profession.</p><div className="footer-meta"><a href="/downloads">Downloads</a><span>@lowassa_eddie</span><span>© 2026 Edward Lowassa Campaign</span></div></footer>
+      <footer className="footer"><a className="brand footer-brand" href="#home"><img className="pst-logo" src="/images/ell_logo.jpeg" alt="" /><span className="brand-copy"><b>EDWARD LOWASSA</b><small>VICE PRESIDENT CAMPAIGN · 2026/27</small></span></a><p>Leadership for a stronger, more united pharmacy profession.</p><div className="footer-meta"><a href="/downloads">Downloads</a><span>@lowassa_eddie</span><span>© 2026 Edward Lowassa Campaign</span></div></footer>
     </main>
   );
 }
