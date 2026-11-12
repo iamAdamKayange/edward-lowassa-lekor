@@ -47,7 +47,7 @@ export default function Home() {
     <main>
       <div className="topline"><span>PHARMACEUTICAL SOCIETY OF TANZANIA</span><span>KAMPENI YA UCHAGUZI · 2026 / 2027</span></div>
       <header className="header">
-        <a className="brand" href="#home" aria-label="Kampeni ya Lowassa Edward Lekor Lormuje"><img className="pst-logo" src="/images/logo.jpeg" alt="Nembo ya Pharmaceutical Society of Tanzania" /><span className="brand-copy"><b>PHARMACEUTICAL SOCIETY OF TANZANIA</b><small>KAMPENI YA LOWASSA LORMUJE · 2026/27</small></span></a>
+        <a className="brand" href="#home" aria-label="Kampeni ya Lowassa Edward Lekor Lormuje"><img className="pst-logo" src="/images/logo.jpeg" alt="Nembo ya Pharmaceutical Society of Tanzania" /><span className="brand-copy"><b>EDWARD LOWASSA</b><small>VICE PRESIDENT CAMPAIGN · 2026/27</small></span></a>
         <button className="menu-button" onClick={() => setMenuOpen(!menuOpen)} aria-label="Fungua menyu">{menuOpen ? "×" : "☰"}</button>
         <nav className={menuOpen ? "nav open" : "nav"}>
           <a href="#home" onClick={() => setMenuOpen(false)}>Home</a><a href="#about" onClick={() => setMenuOpen(false)}>Meet Edward</a><a href="#vision" onClick={() => setMenuOpen(false)}>The Vision</a><a href="#updates" onClick={() => setMenuOpen(false)}>Updates</a><a href="/downloads">Downloads</a>
@@ -57,6 +57,7 @@ export default function Home() {
 
       <section className="hero" id="home">
         <div className="hero-copy">
+          <a className="manifesto-prompt" href="/documents/lowassa-manifesto-2026-2027.pdf" download>Click here to download Lowassa’s Manifesto <span>↓</span></a>
           <p className="eyebrow"><span></span> KAMPENI YA PST · 2026 / 27</p>
           <h1>Edward<br />Lowassa<span className="mobile-title-break"><br /></span> <em>Lekor</em></h1>
           <div className="candidate-role">For Vice President, PST</div>
@@ -82,7 +83,7 @@ export default function Home() {
 
       <section className="updates section" id="updates"><div className="updates-heading"><div><div className="section-kicker">05 — HABARI ZA KAMPENI</div><h2>Safari <em>inaendelea.</em></h2></div><a className="text-link" href="#support">Pata taarifa <span>→</span></a></div><div className="update-card"><div className="update-date">2026 <span>·</span> PST 2026/27</div><div><h3>Maono ya pamoja kwa mustakabali wa famasia</h3><p>Karibu ujifunze kuhusu vipaumbele vya kampeni na kushiriki mawazo yako.</p></div><a href="#vision" aria-label="Soma vipaumbele">↗</a></div></section>
 
-      <footer className="footer"><a className="brand footer-brand" href="#home"><img className="pst-logo" src="/images/logo.jpeg" alt="" /><span className="brand-copy"><b>PHARMACEUTICAL SOCIETY OF TANZANIA</b><small>KAMPENI YA LOWASSA LORMUJE · 2026/27</small></span></a><p>Uongozi kwa famasia yenye nguvu na umoja.</p><div className="footer-meta"><a href="/downloads">Downloads</a><span>@lowassa_eddie</span><span>© 2026 Lowassa Edward Lekor Lormuje Campaign</span></div></footer>
+      <footer className="footer"><a className="brand footer-brand" href="#home"><img className="pst-logo" src="/images/logo.jpeg" alt="" /><span className="brand-copy"><b>EDWARD LOWASSA</b><small>VICE PRESIDENT CAMPAIGN · 2026/27</small></span></a><p>Uongozi kwa famasia yenye nguvu na umoja.</p><div className="footer-meta"><a href="/downloads">Downloads</a><span>@lowassa_eddie</span><span>© 2026 Lowassa Edward Lekor Lormuje Campaign</span></div></footer>
     </main>
   );
 }

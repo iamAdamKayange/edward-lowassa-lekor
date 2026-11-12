@@ -3,11 +3,11 @@ import "./globals.css";
 import "./campaign.css";
 
 export const metadata: Metadata = {
-  title: "Lowassa Edward Lekor Lormuje | Kampeni ya PST 2026/27",
+  title: "Edward Lowassa | Official Campaign 2026/27",
   description:
-    "Wasifu, maono na vipaumbele vya kampeni ya Lowassa Edward Lekor Lormuje kwa nafasi ya Makamu wa Rais wa Chama cha Wafamasia Tanzania.",
+    "Meet Edward Lowassa, explore his vision and priorities for Vice President of the Pharmaceutical Society of Tanzania.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="sw"><body>{children}</body></html>;
+  return <html lang="en"><body>{children}</body></html>;
 }
